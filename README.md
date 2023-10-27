@@ -86,58 +86,58 @@ If you have any feedback, please let us know at samuelaoliveiraramos@gmail.com o
 ## Folder architecture
 
 	.
-	├── public/
-	│   └── [...static files]
-	├── src/
-	│   ├── app/
-	│   │   ├── clothes/
-	│   │   │   ├── [slug]
-	│   │   │   │   └── page.tsx
-	│   │   │   └── page.tsx
-	│   ├── favorites/
-	│   │   ├── [slug]
-	│   │   │   └── page.tsx
-	│   │   └── page.tsx
-	│   ├── globals.css
-	│   ├── layout.tsx
-	│   ├── page.tsx
-	│   └── Providers.tsx
-	│   ├── components/
-	│   │   ├── ButtonStyle/
-	│   │   │   ├── Button.test.tsx
-	│   │   │   └── index.tsx
-	│   │   ├── Footer/
-	│   │   │   ├── Footer.test.tsx
-	│   │   │   └── index.tsx
-	│   │   ├── HomeAccordion/
-	│   │   │   ├── HomeAccordion.test.tsx
-	│   │   │   └── index.tsx
-	│   │   ├── Loading/
-	│   │   │   ├── Loading.test.tsx
-	│   │   │   └── index.tsx
-	│   │   ├── Nav/
-	│   │   │   ├── Nav.types.tsx
-	│   │   │   └── index.tsx
-	│   ├── functions/
-	│   │   ├── addToFavorites.ts
-	│   │   ├── getCategory.ts
-	│   │   ├── getData.ts
-	│   │   ├── localStorage.ts
-	│   │   ├── normalizeImage.ts
-	│   │   ├── parseUrl.ts
-	│   │   ├── stringifyUrl.ts
-	│   │   └── __test__/
-	│   │       └── functions.test.ts
-	│   ├── mocks/
-	│   │   └── index.ts
-	│   ├── store/
-	│   │   ├── favoriteStore.ts
-	│   │   └── globalStore.ts
-	│   └── types/
-	│       ├── children.ts
-	│       ├── itemClothes.ts
-	│       └── parseURL.ts
-	└── [...config file]
+	╠══ public/
+	║   ╚══ [...static files]
+	╠══ src/
+	║   ╠══ app/
+	║   ║   ╠══ clothes/
+	║   ║   ║   ╠══ [slug]
+	║   ║   ║   ║   ╚══ page.tsx
+	║   ║   ║   ╚══ page.tsx
+	║   ╠══ favorites/
+	║   ║   ╠══ [slug]
+	║   ║   ║   ╚══ page.tsx
+	║   ║   ╚══ page.tsx
+	║   ╠══ globals.css
+	║   ╠══ layout.tsx
+	║   ╠══ page.tsx
+	║   ╚══ Providers.tsx
+	║   ╠══ components/
+	║   ║   ╠══ ButtonStyle/
+	║   ║   ║   ╠══ Button.test.tsx
+	║   ║   ║   ╚══ index.tsx
+	║   ║   ╠══ Footer/
+	║   ║   ║   ╠══ Footer.test.tsx
+	║   ║   ║   ╚══ index.tsx
+	║   ║   ╠══ HomeAccordion/
+	║   ║   ║   ╠══ HomeAccordion.test.tsx
+	║   ║   ║   ╚══ index.tsx
+	║   ║   ╠══ Loading/
+	║   ║   ║   ╠══ Loading.test.tsx
+	║   ║   ║   ╚══ index.tsx
+	║   ║   ╠══ Nav/
+	║   ║   ║   ╠══ Nav.types.tsx
+	║   ║   ║   ╚══ index.tsx
+	║   ╠══ functions/
+	║   ║   ╠══ addToFavorites.ts
+	║   ║   ╠══ getCategory.ts
+	║   ║   ╠══ getData.ts
+	║   ║   ╠══ localStorage.ts
+	║   ║   ╠══ normalizeImage.ts
+	║   ║   ╠══ parseUrl.ts
+	║   ║   ╠══ stringifyUrl.ts
+	║   ║   ╚══ __test__/
+	║   ║       ╚══ functions.test.ts
+	║   ╠══ mocks/
+	║   ║   ╚══ index.ts
+	║   ╠══ store/
+	║   ║   ╠══ favoriteStore.ts
+	║   ║   ╚══ globalStore.ts
+	║   ╚══ types/
+	║       ╠══ children.ts
+	║       ╠══ itemClothes.ts
+	║       ╚══ parseURL.ts
+	╚══ [...config file]
 
 
  ![image](https://github.com/samuelrms/frontend-challenge/assets/92615688/a33160d7-93cb-4097-94f4-d78d761f3628)
