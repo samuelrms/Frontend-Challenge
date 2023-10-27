@@ -137,7 +137,8 @@ If you have any feedback, please let us know at samuelaoliveiraramos@gmail.com o
 	│       ├── children.ts
 	│       ├── itemClothes.ts
 	│       └── parseURL.ts
-	└── [...config files]
+	└── [...config file]
+
 
  ![image](https://github.com/samuelrms/frontend-challenge/assets/92615688/a33160d7-93cb-4097-94f4-d78d761f3628)
 
