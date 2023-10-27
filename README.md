@@ -94,14 +94,14 @@ If you have any feedback, please let us know at samuelaoliveiraramos@gmail.com o
 	│   │   │   ├── [slug]
 	│   │   │   │   └── page.tsx
 	│   │   │   └── page.tsx
-	│   │   ├── favorites/
-	│   │   │   ├── [slug]
-	│   │   │   │   └── page.tsx
+	│   ├── favorites/
+	│   │   ├── [slug]
 	│   │   │   └── page.tsx
-	│   │   ├── globals.css
-	│   │   ├── layout.tsx
-	│   │   ├── page.tsx
-	│   │   └── Providers.tsx
+	│   │   └── page.tsx
+	│   ├── globals.css
+	│   ├── layout.tsx
+	│   ├── page.tsx
+	│   └── Providers.tsx
 	│   ├── components/
 	│   │   ├── ButtonStyle/
 	│   │   │   ├── Button.test.tsx
