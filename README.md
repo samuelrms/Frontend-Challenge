@@ -90,10 +90,10 @@ If you have any feedback, please let us know at samuelaoliveiraramos@gmail.com o
 	║   ╚══ [...static files]
 	╠══ src/
 	║   ╠══ app/
-	║   ║   ╠══ clothes/
-	║   ║   ║   ╠══ [slug]
-	║   ║   ║   ║   ╚══ page.tsx
-	║   ║   ║   ╚══ page.tsx
+	║   ║   ╚══ clothes/
+	║   ║       ╠══ [slug]
+	║   ║       ║   ╚══ page.tsx
+	║   ║       ╚══ page.tsx
 	║   ╠══ favorites/
 	║   ║   ╠══ [slug]
 	║   ║   ║   ╚══ page.tsx
@@ -115,9 +115,9 @@ If you have any feedback, please let us know at samuelaoliveiraramos@gmail.com o
 	║   ║   ╠══ Loading/
 	║   ║   ║   ╠══ Loading.test.tsx
 	║   ║   ║   ╚══ index.tsx
-	║   ║   ╠══ Nav/
-	║   ║   ║   ╠══ Nav.types.tsx
-	║   ║   ║   ╚══ index.tsx
+	║   ║   ╚══ Nav/
+	║   ║       ╠══ Nav.types.tsx
+	║   ║       ╚══ index.tsx
 	║   ╠══ functions/
 	║   ║   ╠══ addToFavorites.ts
 	║   ║   ╠══ getCategory.ts
